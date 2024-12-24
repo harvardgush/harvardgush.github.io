@@ -52,7 +52,7 @@ class Home extends Component {
                   have the power to change the world and transform it for the better.
                 </p>
 
-                <a href="/about">
+                <a href="#/about">
                   <button className="bg-[#a61c31] text-white px-6 py-3 rounded-md hover:bg-[#851627] font-normal">
                     Learn More
                   </button>
@@ -80,7 +80,7 @@ class Home extends Component {
                   students and come out to all of our exciting events!
                 </p>
 
-                <a href="/events">
+                <a href="#/events">
                   <button className="bg-[#a61c31] text-white px-6 py-3 rounded-md hover:bg-[#851627] font-normal">
                     View Upcoming Events
                   </button>

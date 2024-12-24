@@ -5,7 +5,7 @@ import About from "./Components/About";
 import Team from "./Components/Team";
 import Events from "./Components/Events";
 import Sponsors from "./Components/Sponsors";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 
 class App extends Component {
   render() {
