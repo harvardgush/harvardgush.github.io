@@ -1,11 +1,28 @@
 import React, { Component } from "react";
-import Main from "./Components/Main";
-class App extends Component {
+import Home from "./Components/Home";
+import Header from "./Components/Header";
+import About from "./Components/About";
+import Team from "./Components/Team";
+import Events from "./Components/Events";
+import Sponsors from "./Components/Sponsors";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
+class App extends Component {
   render() {
     return (
       <div className="App">
-        <Main />
+        <Router>
+          <div className="min-h-screen bg-white font-sans">
+            <Header />
+            <Routes>
+              <Route exact path="/" element={<Home />} />
+              <Route exact path="/about" element={<About />} />
+              <Route exact path="/team" element={<Team />} />
+              <Route exact path="/events" element={<Events />} />
+              <Route exact path="/sponsors" element={<Sponsors />} />
+            </Routes>
+          </div>
+        </Router>
       </div>
     );
   }

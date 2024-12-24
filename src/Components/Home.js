@@ -1,14 +1,11 @@
 import React, { Component } from "react";
-import Header from "./Header";
 
-class Main extends Component {
+class Home extends Component {
   render() {
     return (
-      <div className="min-h-screen bg-white font-sans">
-        <Header />
-
-        <div className="relative h-screen">
-          <img src="harvard-campus.jpg" className="w-full h-full object-cover brightness-[0.75]"/>
+      <div>
+        <div className="max-w-7xl mx-auto relative h-screen">
+          <img src="harvard-campus.jpg" alt="Harvard Campus" className="w-full h-full object-cover brightness-[0.75]" />
           <div className="absolute inset-0">
             <div className="max-w-7xl mx-auto px-6 pt-32">
               <div className="max-w-3xl flex flex-col items-start">
@@ -19,28 +16,26 @@ class Main extends Component {
                   Join the Group for Undergraduates in<br />
                   Statistics at Harvard (GUSH)!
                 </h2>
-                <a href="https://groups.google.com/g/gush-mailing-list">
+                <a href="https://groups.google.com/g/gush-mailing-list" target="_blank" rel="noopener noreferrer">
                   <button className="bg-white text-black px-8 py-3 ml-10 font-semibold rounded-md text-lg hover:bg-gray-300 transition-colors">
                     Get Involved
                   </button></a>
               </div>
             </div>
           </div>
-        </div>
 
-        <div className="bg-[#a61c31] relative p-10">
-          <div className="max-w-7xl mx-auto text-white text-left mb-20 ml-10">
-            A draft of the GUSH Guide to Harvard Statistics is now available at <a href="https://drive.google.com/file/d/1D8ixwiO_EixXvQf588hyuWQLcLWoiIxp/view?usp=share_link" className="underline">this link</a>!
-            Please let us know if you have any questions or suggestions!
-          </div>
+          <div className="bg-[#a61c31] p-10">
+            <div className="text-white text-center py-5">
+              A draft of the GUSH Guide to Harvard Statistics is now available at <a href="/GUSH_Guide.pdf" target="_blank" rel="noopener noreferrer" className="underline">this link</a>!
+              Please let us know if you have any questions or suggestions!
+            </div>
 
-          <div className="max-w-7xl mx-auto mt-10 px-6">
-            <div className="grid grid-cols-5 gap-0">
-              <div className="col-span-3 bg-black w-auto -mt-10 -mb-10">
-                <img src="statistics-visual.jpeg" className="w-full h-full object-cover" />
+            <div className="grid grid-cols-5 gap-0 mt-20">
+              <div className="col-span-3 bg-black w-auto -my-10 ml-10">
+                <img src="statistics-visual.jpeg" alt="Statistics Visual" className="w-full h-full object-cover shadow-xl" />
               </div>
 
-              <div className="col-span-2 bg-white p-8 text-left -ml-24 z-10">
+              <div className="col-span-2 bg-white p-8 text-left -ml-24 z-10 mr-10">
                 <h2 className="text-3xl font-medium text-[#a61c31] mb-6">
                   "The best thing about being a statistician is that you get to play in everybody else's backyard."
                 </h2>
@@ -59,19 +54,17 @@ class Main extends Component {
 
                 <a href="/about">
                   <button className="bg-[#a61c31] text-white px-6 py-3 rounded-md hover:bg-[#851627] font-normal">
-                    Learn more
+                    Learn More
                   </button>
                 </a>
               </div>
             </div>
-          </div>
 
-          <br /><br /><br /><br /><br />
+            <br /><br /><br /><br /><br />
 
-          <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-5 gap-0">
 
-              <div className="col-span-2 bg-white p-8 text-left -mr-24 z-10">
+              <div className="col-span-2 bg-white p-8 text-left -mr-24 z-10 ml-10">
                 <h2 className="text-3xl font-medium text-[#a61c31] mb-6">
                   "Apart from the known and the unknown, what else is there?"
                 </h2>
@@ -94,15 +87,15 @@ class Main extends Component {
                 </a>
               </div>
 
-              <div className="col-span-3 bg-black w-auto -mt-10 -mb-10">
-                <img src="joe-gush.jpg" className="w-full h-full object-cover" />
+              <div className="col-span-3 bg-black w-auto -my-10 mr-10">
+                <img src="joe-gush.jpg" alt="Joe and GUSH" className="w-full h-full object-cover shadow-xl" />
               </div>
             </div>
+            <br /><br /><br />
           </div>
-          <br /><br />
         </div>
       </div>
     );
   }
 }
-export default Main;
+export default Home;
