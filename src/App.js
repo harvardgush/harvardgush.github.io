@@ -12,7 +12,7 @@ class App extends Component {
     return (
       <div className="App">
         <Router>
-          <div className="min-h-screen bg-white font-sans">
+          <div className="min-h-screen min-w-screen bg-[#a61c31] font-sans">
             <Header />
             <Routes>
               <Route exact path="/" element={<Home />} />

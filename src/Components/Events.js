@@ -2,20 +2,23 @@ import React, { Component } from "react";
 import { events } from "./event.js"
 
 class Events extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>
-        <div className="bg-[#a61c31] relative px-20 pt-10 max-w-7xl mx-auto">
+        <div className="bg-[#a61c31] relative px-10 md:px-20 pt-10 max-w-7xl mx-auto">
           <h1 className="text-white text-4xl font-bold text-center mb-16">
             Events
           </h1>
           {events.map((event, eventIndex) => (
-            <div className="grid md:grid-cols-3 gap-12 items-start my-10">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start my-10">
               <div className="col-span-1">
-                <img src={event.image} alt={`event-${eventIndex}`} className="w-full h-full shadow-xl aspect-square"/>
+                <img src={event.image} alt={`event-${eventIndex}`} className="w-full h-full shadow-xl aspect-square" />
               </div>
 
-              <div key={`tier-${eventIndex}`} className="mb-16 last:mb-0 col-span-2">
+              <div key={`tier-${eventIndex}`} className="mb-16 last:mb-0 col-span-1 md:col-span-2">
                 <h2 className="text-white text-2xl font-semibold mb-3 text-left">
                   {event.title}
                 </h2>

@@ -5,7 +5,7 @@ exports.events = [
         description: [
             { line: "GUSH will be hosting a student-run panel discussing Fall 2023 statistics course offerings on Wednesday, August 23 at 7-8pm EDT -- this is meant to help students of all years & levels of interest in statistics get a genuine idea of what course offerings are like from other students (and hopefully reduce the stress of shopping week)!" },
             { line: "We hope to have one breakout room for each of the fall courses offered, with at least one current TF or student who has recently taken the class. Some breakout rooms may have multiple classes. Students will be free to move around breakout rooms and as questions as desired." },
-            {line: "RSVP at bit.ly/GUSHFall23 to receive the Zoom link!"}
+            { line: "RSVP at bit.ly/GUSHFall23 to receive the Zoom link!" }
         ],
         image: "/events/stats-on-stat-2023.png",
     },
@@ -65,8 +65,8 @@ exports.events = [
         title: "The Stats on Stat Courses: A Student Panel",
         time: "Tuesday, August 23, 2022, 7:00 PM - 8:00 PM",
         description: [
-            { line: "Join the Group for Undergraduates in Statistics at Harvard (GUSH) for an exciting student panel featuring Harvard students who have previously taken and/or TF'd the courses you're interested in shopping/taking this spring!"},
-            { line: "Our panelists will be talking about their honest experiences taking these courses & answering all of your course-related questions during the panel."},
+            { line: "Join the Group for Undergraduates in Statistics at Harvard (GUSH) for an exciting student panel featuring Harvard students who have previously taken and/or TF'd the courses you're interested in shopping/taking this spring!" },
+            { line: "Our panelists will be talking about their honest experiences taking these courses & answering all of your course-related questions during the panel." },
             { line: "Please RSVP at https://tinyurl.com/GUSHFall22 - we will be sending out the Zoom link shortly before the panel." }
         ],
         image: "/events/fall-student-panel-2022.png",

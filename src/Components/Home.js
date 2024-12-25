@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 
 class Home extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <div>
@@ -8,16 +11,16 @@ class Home extends Component {
           <img src="harvard-campus.jpg" alt="Harvard Campus" className="w-full h-full object-cover brightness-[0.75]" />
           <div className="absolute inset-0">
             <div className="max-w-7xl mx-auto px-6 pt-32">
-              <div className="max-w-3xl flex flex-col items-start">
-                <h1 className="text-6xl font-semibold text-white ml-10 mb-6 leading-tight text-left">
+              <div className="max-w-3xl flex flex-col items-start mx-5 md:mx-10">
+                <h1 className="text-6xl font-bold text-white mb-6 leading-tight text-left">
                   Understand the World
                 </h1>
-                <h2 className="text-3xl text-white mb-8 leading-normal ml-10 text-left font-medium">
+                <h2 className="text-3xl text-white mb-8 leading-normal text-left font-medium">
                   Join the Group for Undergraduates in<br />
                   Statistics at Harvard (GUSH)!
                 </h2>
                 <a href="https://groups.google.com/g/gush-mailing-list" target="_blank" rel="noopener noreferrer">
-                  <button className="bg-white text-black px-8 py-3 ml-10 font-semibold rounded-md text-lg hover:bg-gray-300 transition-colors">
+                  <button className="bg-white text-black px-8 py-3 font-semibold rounded-md text-lg hover:bg-gray-300 transition-colors">
                     Get Involved
                   </button></a>
               </div>
@@ -30,12 +33,12 @@ class Home extends Component {
               Please let us know if you have any questions or suggestions!
             </div>
 
-            <div className="grid grid-cols-5 gap-0 mt-20">
-              <div className="col-span-3 bg-black w-auto -my-10 ml-10">
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-0 mt-10 md:mt-20">
+              <div className="hidden md:block md:col-span-3 bg-black w-auto md:-my-10 md:ml-10">
                 <img src="statistics-visual.jpeg" alt="Statistics Visual" className="w-full h-full object-cover shadow-xl" />
               </div>
 
-              <div className="col-span-2 bg-white p-8 text-left -ml-24 z-10 mr-10">
+              <div className="col-span-1 md:col-span-2 bg-white p-8 text-left md:-ml-24 z-10 md:mr-10">
                 <h2 className="text-3xl font-medium text-[#a61c31] mb-6">
                   "The best thing about being a statistician is that you get to play in everybody else's backyard."
                 </h2>
@@ -60,11 +63,9 @@ class Home extends Component {
               </div>
             </div>
 
-            <br /><br /><br /><br /><br />
+            <div className="grid grid-cols-1 md:grid-cols-5 gap-0 mt-10 md:mt-20 md:py-10">
 
-            <div className="grid grid-cols-5 gap-0">
-
-              <div className="col-span-2 bg-white p-8 text-left -mr-24 z-10 ml-10">
+              <div className="col-span-1 md:col-span-2 bg-white p-8 text-left md:-mr-24 z-10 md:ml-10">
                 <h2 className="text-3xl font-medium text-[#a61c31] mb-6">
                   "Apart from the known and the unknown, what else is there?"
                 </h2>
@@ -87,11 +88,11 @@ class Home extends Component {
                 </a>
               </div>
 
-              <div className="col-span-3 bg-black w-auto -my-10 mr-10">
+              <div className="hidden md:block md:col-span-3 bg-black w-auto md:-my-10 md:mr-10">
                 <img src="joe-gush.jpg" alt="Joe and GUSH" className="w-full h-full object-cover shadow-xl" />
               </div>
             </div>
-            <br /><br /><br />
+            <br /><br />
           </div>
         </div>
       </div>
