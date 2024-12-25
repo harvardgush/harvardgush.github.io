@@ -14,7 +14,7 @@ class Sponsors extends Component {
             Our Sponsors
           </h1>
 
-          <div className="bg-white rounded-3xl py-12 px-6 md:px-12">
+          <div className="bg-white rounded-3xl py-12 px-5 md:px-12">
             {sponsors.map((tier, tierIndex) => (
               <div key={`tier-${tierIndex}`} className="mb-16 last:mb-0">
                 <h2 className="text-[#a61c31] text-3xl font-bold text-center mb-12">
@@ -24,7 +24,7 @@ class Sponsors extends Component {
                 <div className="flex justify-center items-center flex-wrap gap-12">
                   {tier.sponsors.map((sponsor, sponsorIndex) => (
                     <a key={`sponsor-${sponsorIndex}`} href={sponsor.link} target="_blank" rel="noopener noreferrer" className="block max-w-2xl">
-                      <img src={sponsor.imagePath} alt={sponsor.name} className="w-full max-h-[8vh] max-h-[11vw]" />
+                      <img src={sponsor.imagePath} alt={sponsor.name} className="w-auto max-h-[15vw]" />
                     </a>
                   ))}
                 </div>
@@ -35,15 +35,15 @@ class Sponsors extends Component {
           <h1 className="text-white text-center text-4xl font-bold my-12">
             Contact Us
           </h1>
-          <div className="px-10 md:px-20 grid grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-x-20 place-items-center">
-            <a href="mailto:harvardgush@gmail.com" target="_blank" rel="noopener noreferrer" className="w-full justify-center justify-self-center col-span-1">
-              <FaMailBulk size={30} color="white" className="justify-self-center" />
+          <div className="px-10 md:px-20 grid grid-cols-1 md:grid-cols-2 gap-y-10 md:gap-x-20">
+            <a href="mailto:harvardgush@gmail.com" target="_blank" rel="noopener noreferrer" className="w-full justify-center items-center col-span-1">
+              <FaMailBulk size={30} color="white" className="block justify-self-center" />
               <p className="text-white text-center text-xl font-normal justify-self-center">
                 harvardgush@gmail.com
               </p>
             </a>
-            <a href="https://www.instagram.com/harvardgush/" target="_blank" rel="noopener noreferrer" className="w-full justify-center justify-self-center col-span-1">
-              <FaInstagram size={30} color="white" className="justify-self-center" />
+            <a href="https://www.instagram.com/harvardgush/" target="_blank" rel="noopener noreferrer" className="w-full justify-center items-center col-span-1">
+              <FaInstagram size={30} color="white" className="block justify-self-center" />
               <p className="text-white text-center text-xl font-normal justify-self-center">
                 @harvardgush
               </p>
