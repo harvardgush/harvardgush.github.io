@@ -1,3 +1,3 @@
-# Upcoming Harvard GUSH Website
+# Group for Undergraduates in Statistics at Harvard (GUSH)
 
-### Current website at [https://gushclub.org/](https://gushclub.org/)
+### New and improved website at [https://harvardgush.github.io/](https://harvardgush.github.io/)
