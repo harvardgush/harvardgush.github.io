@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Home from "./Components/Home";
 import Header from "./Components/Header";
+import Footer from "./Components/Footer";
 import About from "./Components/About";
 import Team from "./Components/Team";
 import Events from "./Components/Events";
@@ -21,6 +22,7 @@ class App extends Component {
               <Route exact path="/events" element={<Events />} />
               <Route exact path="/sponsors" element={<Sponsors />} />
             </Routes>
+            <Footer />
           </div>
         </Router>
       </div>

@@ -16,15 +16,20 @@ class Team extends Component {
             {boardMembers.map((member, index) => (
               <div
                 key={index}
-                className="flex flex-col items-center"
+                className="flex flex-col items-center group"
               >
                 {/* Image container with fixed aspect ratio */}
-                <div className="w-full max-w-md aspect-square mb-4 overflow-hidden">
+                <div className="relative w-full max-w-md aspect-square mb-4 overflow-hidden">
                   <img
                     src={member.imagePath}
                     alt={`${member.name} - ${member.title}`}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-cover group-hover:brightness-50 transition duration-300"
                   />
+                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                    <p className="text-white text-lg font-medium text-center px-4">
+                      {member.desc}
+                    </p>
+                  </div>
                 </div>
 
                 {/* Name and title */}
