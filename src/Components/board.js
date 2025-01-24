@@ -24,13 +24,14 @@ exports.boardMembers = [
     {
         name: "Elvin Lo",
         title: "Board Member",
-        imagePath: "/headshots/Elvin+Lo.jpg"
+        imagePath: "/headshots/Elvin+Lo.jpg",
+        desc: "Elvin is a sophomore in Dunster studying Computer Science and Statistics. Outside GUSH, he is involved with the Taiwanese Cultural Society and works in ML research. Beyond this, he loves the sport of tennis."
     },
     {
         name: "Eric Tong",
         title: "Board Member",
         imagePath: "/headshots/Eric+Tong.jpg",
-        desc: "Elvin is a sophomore in Dunster studying Computer Science and Statistics. Outside GUSH, he is involved with the Taiwanese Cultural Society and works in ML research. Beyond this, he loves the sport of tennis."
+        desc: "Eric is a freshman in Mower planning on studying Statistics. He enjoys atomic chess and puzzles, especially Sudoku."
     },
     {
         name: "Gracelynne Hao",
