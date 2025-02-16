@@ -52,6 +52,12 @@ exports.boardMembers = [
         desc: "Jesse is a freshman in Canaday concentrating in statistics and mathematics. In addition to GUSH, Jesse is involved in HFAC Quant, HMMT, WHRB, and Scholars of Finance. For fun, he likes to scuba dive and watch (or perform) improvisational comedy."
     },
     {
+        name: "Julia Hudson",
+        title: "Board Member",
+        imagePath: "/headshots/Julia+Hudson.jpeg",
+        desc: "Julia is a first-year in Grays studying Statistics with a secondary in Literature. Along with GUSH, she is involved with HUCP and HAPA. She enjoys going on walks, thrifting, and Boiler Room sets."
+    },
+    {
         name: "Lewis Tu",
         title: "Board Member",
         imagePath: "/headshots/Lewis+Tu.jpg",
