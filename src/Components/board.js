@@ -14,7 +14,8 @@ exports.boardMembers = [
     {
         name: "Max Peng",
         title: "Treasurer",
-        imagePath: "/headshots/Max+Peng.jpg"
+        imagePath: "/headshots/Max+Peng.jpg",
+        desc: "Max is a sophmore in Dunster House studying Computer Science and Statistics. Outside of GUSH, he is involved with HDAG, HUQT, and the Taiwanese Cultural Society. In his free time, he enjoys linear modeling, playing poker, and praying his basketball parlays hit."
     },
     {
         name: "Alice Wu",
