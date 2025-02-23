@@ -4,14 +4,24 @@ exports.sponsors = [
         sponsors: [
             {
                 name: "Citadel",
-                imagePath: "/Citadel-Sponsor.png",
+                imagePath: "/sponsors/Citadel-Sponsor.png",
                 link: "https://www.citadel.com"
             },
             {
                 name: "Hudson River Trading",
-                imagePath: "/HRT-Sponsor.png",
+                imagePath: "/sponsors/HRT-Sponsor.png",
                 link: "https://www.hudsonrivertrading.com/"
             }
         ]
     },
+    {
+        name: "Silver Tier",
+        sponsors: [
+            {
+                name: "Jane Street",
+                imagePath: "/sponsors/Jane-Street-Sponsor.png",
+                link: "https://www.janestreet.com/"
+            },
+        ]
+    }
 ];
