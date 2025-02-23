@@ -17,7 +17,7 @@ class About extends Component {
               <img
                 src="our-mission.jpeg"
                 alt="GUSH Mission"
-                className="shadow-xl w-full h-auto"
+                className="shadow-xl w-full h-auto rounded-2xl transition duration-300 ease-in-out transform hover:scale-105 hover:brightness-90 group-hover:shadow-2xl"
               />
             </div>
 
@@ -54,7 +54,7 @@ class About extends Component {
               <img
                 src="board.jpeg"
                 alt="GUSH Board"
-                className="shadow-xl w-full h-auto"
+                className="shadow-xl w-full h-auto rounded-2xl transition duration-300 ease-in-out transform hover:scale-105 hover:brightness-90 group-hover:shadow-2xl"
               />
             </div>
           </div>

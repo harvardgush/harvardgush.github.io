@@ -18,19 +18,19 @@ class Team extends Component {
                 key={index}
                 className="flex flex-col items-center group"
               >
-                {/* Image container with fixed aspect ratio */}
-                <div className="relative w-full max-w-md aspect-square mb-4 overflow-hidden">
-                  <img
-                    src={member.imagePath}
-                    alt={`${member.name} - ${member.title}`}
-                    className="w-full h-full object-cover group-hover:brightness-50 transition duration-300"
-                  />
-                  <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
-                    <p className="text-white text-lg font-medium text-center px-4">
-                      {member.desc}
-                    </p>
-                  </div>
+                {/* Image container with fixed aspect ratio and rounded corners */}
+                <div className="relative w-full max-w-md aspect-square mb-4 overflow-hidden rounded-2xl">
+                <img
+                  src={member.imagePath}
+                  alt={`${member.name} - ${member.title}`}
+                  className="w-full h-full object-cover group-hover:brightness-50 transition duration-500 ease-in-out transform hover:scale-110"
+                />
+                <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
+                  <p className="text-white text-lg font-medium text-center px-4">
+                    {member.desc}
+                  </p>
                 </div>
+              </div>
 
                 {/* Name and title */}
                 <h2 className="text-white text-2xl font-semibold text-center">

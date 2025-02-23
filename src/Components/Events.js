@@ -11,11 +11,16 @@ class Events extends Component {
         <div className="bg-[#a61c31] relative px-10 md:px-20 pt-10 max-w-7xl mx-auto">
           <h1 className="text-white text-4xl font-bold text-center mb-16">
             Events
-          </h1>
+            </h1>
           {events.map((event, eventIndex) => (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start my-10">
-              <div className="col-span-1">
-                <img src={event.image} alt={`event-${eventIndex}`} className="w-full max-w-md md:max-w-lg lg:max-w-xl h-auto shadow-xl" />
+              <div className="col-span-1 relative group overflow-hidden rounded-2xl">
+                <img 
+                  src={event.image} 
+                  alt={`event-${eventIndex}`} 
+                  className="w-full max-w-md md:max-w-lg lg:max-w-xl h-auto shadow-xl transition duration-500 ease-in-out transform hover:scale-110 hover:brightness-90 group-hover:shadow-2xl" 
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-500"></div>
               </div>
 
               <div key={`tier-${eventIndex}`} className="mb-16 last:mb-0 col-span-1 md:col-span-2">
