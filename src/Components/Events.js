@@ -15,7 +15,7 @@ class Events extends Component {
           {events.map((event, eventIndex) => (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start my-10">
               <div className="col-span-1">
-                <img src={event.image} alt={`event-${eventIndex}`} className="w-full h-full shadow-xl aspect-square" />
+                <img src={event.image} alt={`event-${eventIndex}`} className="w-full max-w-md md:max-w-lg lg:max-w-xl h-auto shadow-xl" />
               </div>
 
               <div key={`tier-${eventIndex}`} className="mb-16 last:mb-0 col-span-1 md:col-span-2">
