@@ -36,14 +36,14 @@ const Sponsors = () => {
             <h2 className="text-[#a61c31] text-3xl font-bold text-center mb-12">
               {tier.name}
             </h2>
-            <div className="flex justify-center items-center flex-wrap gap-12">
+            <div className="flex flex-col items-center flex-wrap gap-6">
               {tier.sponsors.map((sponsor, sponsorIndex) => (
                 <a 
                   key={`sponsor-${sponsorIndex}`} 
                   href={sponsor.link} 
                   target="_blank" 
                   rel="noopener noreferrer" 
-                  className="block max-w-2xl hover:opacity-80 transition-opacity"
+                  className="block hover:opacity-80 transition-opacity"
                 >
                   <img 
                     src={sponsor.imagePath} 

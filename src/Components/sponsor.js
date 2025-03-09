@@ -22,6 +22,16 @@ exports.sponsors = [
                 imagePath: "/sponsors/Jane-Street-Sponsor.png",
                 link: "https://www.janestreet.com/"
             },
+            {
+                name: "DRW",
+                imagePath: "/sponsors/DRW-Sponsor.jpg",
+                link: "https://www.drw.com/"
+            },
+            {
+                name: "QuantCo",
+                imagePath: "/sponsors/QuantCo-Sponsor.png",
+                link: "https://www.quantco.com/"
+            },
         ]
     }
 ];
