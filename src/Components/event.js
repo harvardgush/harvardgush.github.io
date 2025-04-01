@@ -1,12 +1,28 @@
 exports.events = [
     /* {
         title: "",
-        time: "Friday, February 23, 2024, 4:30 PM - 5:30 PM",
+        time: "Friday, February 23, 2025, 4:30 PM - 5:30 PM",
         description: [
             { line: "" },
         ],
         image: "/events/.jpg",
     }, */
+    {
+        title: "Poker Social",
+        time: "Friday, April 11, 2025, 3:30 PM - 4:30 PM",
+        description: [
+            { line: "Join us for the GUSH Poker Social this Friday at the Stat Lounge (SC316)!" },
+        ],
+        image: "/events/poker_social-2025.png",
+    }, 
+    {
+        title: "Women in Data Science Panel",
+        time: "Friday, March 7, 2025, 7:00 PM - 8:00 PM",
+        description: [
+            { line: "As part of Women’s Week 2025: Threaded, GUSH is excited to host our annual Women in Data Science Panel on Friday, March 7 from 7-8pm! If you are curious about careers in statistics and data science, join us for an inspiring panel of accomplished women in tech, biostats, business, and academia! Make sure to RSVP ASAP at tinyurl.com/womeninds25" },
+        ],
+        image: "/events/wids-2025.png",
+    }, 
     {
         title: "SURF: Statistics Undergraduate Research Forum",
         time: "Friday, February 28, 2024, 3:30 PM - 4:30 PM",
