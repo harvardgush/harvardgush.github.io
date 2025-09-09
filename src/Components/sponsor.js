@@ -11,6 +11,11 @@ exports.sponsors = [
                 name: "Hudson River Trading",
                 imagePath: "/sponsors/HRT-Sponsor.png",
                 link: "https://www.hudsonrivertrading.com/"
+            },
+            {
+                name: "Jump Trading",
+                imagePath: "/sponsors/Jump-Trading-Sponsor.png",
+                link: "https://www.jumptrading.com/"
             }
         ]
     },
