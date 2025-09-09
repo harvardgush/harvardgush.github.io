@@ -14,7 +14,7 @@ exports.sponsors = [
             },
             {
                 name: "Jump Trading",
-                imagePath: "/sponsors/Jump-Trading-Sponsor.png",
+                imagePath: "/sponsors/Jump-Trading-Sponsor.jpg",
                 link: "https://www.jumptrading.com/"
             }
         ]
