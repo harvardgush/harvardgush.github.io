@@ -7,6 +7,32 @@ exports.events = [
         ],
         image: "/events/.jpg",
     }, */
+    
+    {
+        title: "Fall Social",
+        time: "Friday, September 26, 2025, 4:00 PM - 5:00 PM",
+        description: [
+            { line: "We’re excited to invite you to our annual Fall Social—open to all Harvard students and affiliates! Learn about the Statistics concentration, secondary, and community at Harvard while enjoying mochi donuts! \n \n What: Fall Social (with mochi donuts) hosted by GUSH \n When: 4-5 PM on Friday, 09/26/2025 \n Where: Science Center, Room 316 \n\n Please RSVP for headcount: tinyurl.com/gush-social-f25" },
+        ],
+        image: "/events/fall-social-2025.jpg",
+    }, 
+    {
+        title: "GUSH x QuantCo Game Night",
+        time: "Tuesday, September 30, 2025, 7:00 PM - 10:00 PM",
+        description: [
+            { line: "GUSH and QuantCo welcome you to their first-ever Game Night—hosted at QuantCo’s office in Cambridge! Play fun games, enjoy refreshments, and hear from representatives about QuantCo! RSVP required. \n What: Game Night hosted by GUSH and QuantCo \n When: 7-10 PM on Tuesday, 09/30/2025 \n Where: 139 Main St, Cambridge, MA 02142 \n \n RSVP here: https://tinyurl.com/gush-quantco-rsvp" },
+        ],
+        image: "/events/quantco-game-night-2025.jpg",
+    }, 
+    {
+        title: "Summer Sibs",
+        time: "Deadline: Friday, July 25, 2025",
+        description: [
+            { line: "GUSH is bringing back our annual Summer Sibs mentorship program to help incoming students navigate Statistics at Harvard! If you’re Class of 2029 and looking to connect with a mentor—or if you’re interested in guiding a fellow student—sign up at bit.ly/gushsummer2025 (please do so by Friday, 07/25 so that we can match ASAP)!" },
+        ],
+        image: "/events/summer-sibs-2025.jpg",
+    }, 
+
     {
         title: "Poker Social",
         time: "Friday, April 11, 2025, 3:30 PM - 4:30 PM",
