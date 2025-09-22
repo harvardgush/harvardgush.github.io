@@ -3,85 +3,55 @@ exports.boardMembers = [
         name: "Ricky Truong",
         title: "President",
         imagePath: "/headshots/Ricky+Truong.jpg",
-        desc: "Ricky is a sophomore in Adams House studying statistics. Aside from GUSH, he is involved with the Harvard Vietnamese Association, Harvard Open Data Project, and Harvard On The Move. In his free time, he enjoys running, especially along the Charles River."
+        desc: "Ricky is a junior in Adams studying Statistics and Mathematics. Aside from GUSH, he conducts research in Biostatistics and serves as a Peer Concentration Advisor and Teaching Fellow in the Statistics Department. In his free time, he enjoys running, especially with friends."
     },
     {
         name: "Stella Wong",
         title: "President",
         imagePath: "/headshots/Stella+Wong.png",
-        desc: "Stella is a second-year in Cabot studying Applied Mathematics on the Statistics track, and Computer Science. Including GUSH, she is involved in HDAG, AADT, and research with HKS. For fun, she likes to play board/card games, cook, and paint."
+        desc: "Stella is a junior in Cabot studying Applied Math and Computer Science. She is also a part of HDAG, SWS, and AADT. Outside of academics, she loves living out her foodie dreams, painting, and playing all of the classic party games (poker, catan, monopoly)."
     },
     {
         name: "Gracelynne Hao",
         title: "Vice President",
         imagePath: "/headshots/Gracelynne+Hao.jpg",
-        desc: "Gracelynne is a first-year in Wigglesworth planning on joint-concentrating in chemistry and statistics. Aside from GUSH, she's involved in CBE, the HPR, the HMSR, and AADT. In her free time, she enjoys scrapbooking and trying out all the restaurants in Cambridge!"
+        desc: "Gracelynne is a sophomore in Leverett House planning on joint-concentrating in chemistry and physics and statistics. Aside from GUSH, she's involved in CBE, chem club, chemistry research, and FOP. In her free time, she enjoys scrapbooking and trying out all the restaurants in the Boston area!"
     },
     {
         name: "Jesse Brodtman",
         title: "Vice President",
         imagePath: "/headshots/Jesse+Brodtman.jpg",
-        desc: "Jesse is a freshman in Canaday concentrating in statistics and mathematics. In addition to GUSH, Jesse is involved in HFAC Quant, HMMT, WHRB, and Scholars of Finance. For fun, he likes to scuba dive and watch (or perform) improvisational comedy."
+        desc: "Jesse is a sophomore in Leverett concentrating in statistics and mathematics. In addition to GUSH, Jesse is involved in HMMT, HUQT, and TFing for Stat 110. For fun, he likes to scuba dive and watch improvisational comedy."
     },
     {
-        name: "Julia Hudson",
-        title: "Treasurer",
-        imagePath: "/headshots/Julia+Hudson.jpeg",
-        desc: "Julia is a first-year in Grays studying Statistics with a secondary in Literature. Along with GUSH, she is involved with HUCP and HAPA. She enjoys going on walks, thrifting, and Boiler Room sets."
+        name: "Eric Tong",
+        title: "Co-Treasurer",
+        imagePath: "/headshots/Eric+Tong.jpg",
+        desc: "Eric is a sophomore in Leverett studying statistics. He enjoys solving puzzles, playing games of all sorts, juggling, and unicycling."
+    },
+    {
+        name: "Rebecca Xue",
+        title: "Co-Treasurer",
+        imagePath: "/headshots/Rebecca+Xue.png",
+        desc: "Rebecca is a sophomore in Winthrop studying Molecular & Cellular Biology and Statistics. Apart from GUSH, Rebecca is involved in HUCBE, AADT, PBHA, and HRDH, and enjoys finding new cafes/restaurants and exploring Boston!"
     },
     {
         name: "Elvin Lo",
         title: "Board Member",
         imagePath: "/headshots/Elvin+Lo.jpg",
-        desc: "Elvin is a sophomore in Dunster studying Computer Science and Statistics. Outside GUSH, he is involved with the Taiwanese Cultural Society and works in ML research. Beyond this, he loves the sport of tennis."
-    },
-    {
-        name: "Eric Tong",
-        title: "Board Member",
-        imagePath: "/headshots/Eric+Tong.jpg",
-        desc: "Eric is a freshman in Mower planning on studying Statistics. He enjoys atomic chess and puzzles, especially Sudoku."
+        desc: "Elvin is a junior in Dunster studying Statistics. Besides GUSH, he is involved with the Taiwanese Cultural Society and plays a lot of tennis. He also likes spikeball and is working on getting into mahjong."
     },
     {
         name: "Lewis Tu",
         title: "Board Member",
         imagePath: "/headshots/Lewis+Tu.jpg",
-        desc: "Lewis is a first-year in Grays studying Statistics, Math, and Computer Science. Outside of GUSH, he is involved with HUCP and volunteers with the Massachusetts High School Chess League. In his free time, Lewis enjoys playing poker, baseball, and other sports."
-    },
-    {
-        name: "Max Peng",
-        title: "Board Member",
-        imagePath: "/headshots/Max+Peng.jpg",
-        desc: "Max is a sophmore in Dunster House studying Computer Science and Statistics. Outside of GUSH, he is involved with HDAG, HUQT, and the Taiwanese Cultural Society. In his free time, he enjoys linear modeling, playing poker, and praying his basketball parlays hit."
-    },
-    {
-        name: "McKayla Ro",
-        title: "Board Member",
-        imagePath: "/headshots/McKayla+Ro.png",
-        desc: "McKayla is a sophomore in Cabot studying integrative biology with a math secondary. Outside of GUSH, she is involved in AADT, PBHA, HODP, WECode, and peer counseling. In her free time, she loves listening to music and going on walks!"
+        desc: "Lewis is a sophomore in Mather studying Statistics and Computer Science. Outside of GUSH, he is involved with HUCP, HUQT, and AAB. In his free time, Lewis enjoys chess, baseball, and F1."
     },
     {
         name: "Melissa Wu",
         title: "Board Member",
         imagePath: "/headshots/Melissa+Wu.jpg",
-        desc: "Melissa is a junior in Lowell studying Statistics and Computer Science with a secondary in Economics. Outside of GUSH, Melissa is involved in AADT, CHAARG, and is a TF for Stat 110/111. In her free time, she enjoys cafe-hopping and exploring new music!"
-    },
-    {
-        name: "Michelle Le",
-        title: "Board Member",
-        imagePath: "/headshots/Michelle+Le.jpg",
-        desc: "Michelle is a second-year in Cabot studying Statistics ad Computer Science. Out of GUSH, she is involved in HDAG, T4SG and WiCS. In her free time she enjoys listening to podcasts and binging Youtube"
-    },
-    {
-        name: "Pranav Sitaraman",
-        title: "Board Member",
-        imagePath: "/headshots/Pranav+Sitaraman.jpg",
-        desc: "Pranav is a first-year in Lionel studying Math, Statistics, and Computer Science. Outside GUSH, he is involved in HUMA, HMMT, and HCS AI. In his free time, Pranav enjoys watching soccer, reading, and playing poker."
-    },
-    {
-        name: "Rebecca Xue",
-        title: "Board Member",
-        imagePath: "/headshots/Rebecca+Xue.png",
-        desc: "Rebecca is a first-year in Matthews intending to concentrate in chemical & physical biology and statistics. Apart from GUSH, Rebecca is involved in HUCBE, AAWA, and AADT. She enjoys listening to new music and traveling, and is excited to be a part of GUSH this year!"
+        desc: "Melissa is a senior in Lowell studying Statistics and Computer Science with a secondary in Economics. Outside of GUSH, Melissa is a choreographer for AADT and a TF for the Stat Department. In her free time, she enjoys cafe-hopping and playing card games!"
     },
     {
         name: "Joe Blitzstein",
@@ -89,3 +59,36 @@ exports.boardMembers = [
         imagePath: "/headshots/Joe+Blitzstein.jpg"
     },
 ];
+/*
+{
+        name: "Julia Hudson",
+        title: "Board Member",
+        imagePath: "/headshots/Julia+Hudson.jpeg",
+        desc: ""
+    
+    },
+    {
+        name: "Max Peng",
+        title: "Board Member",
+        imagePath: "/headshots/Max+Peng.jpg",
+        desc: ""
+    },
+    {
+        name: "McKayla Ro",
+        title: "Board Member",
+        imagePath: "/headshots/McKayla+Ro.png",
+        desc: ""
+    },
+    {
+        name: "Michelle Le",
+        title: "Board Member",
+        imagePath: "/headshots/Michelle+Le.jpg",
+        desc: ""
+    },
+    {
+        name: "Pranav Sitaraman",
+        title: "Board Member",
+        imagePath: "/headshots/Pranav+Sitaraman.jpg",
+        desc: ""
+    },
+*/
