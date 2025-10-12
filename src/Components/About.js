@@ -15,7 +15,7 @@ class About extends Component {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-7 gap-12 items-center">
             <div className="col-span-1 lg:col-span-3 relative">
               <img
-                src="our-mission.jpeg"
+                src="our-mission.jpg"
                 alt="GUSH Mission"
                 className="shadow-xl w-full h-auto rounded-2xl transition duration-300 ease-in-out transform hover:scale-105 hover:brightness-90 group-hover:shadow-2xl"
               />
