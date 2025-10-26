@@ -7,7 +7,22 @@ exports.events = [
         ],
         image: "/events/.jpg",
     }, */
-    
+    {
+        title: "Help for Undergraduates from Graduate Students (HUGS)",
+        time: "Deadline: Friday, 10/24",
+        description: [
+            { line: "GUSH is bringing back our annual HUGS (Help for Undergraduates from Graduate Students) Mentorship Program, which will pair undergraduates with grad students studying Statistics or related fields. \n Whether you're an Undergraduate looking to learn more about grad school or a Graduate Student interested in mentoring a fellow student, sign up at https://tinyurl.com/gush-hugs-f25" },
+        ],
+        image: "/events/hugs-2025.png",
+    }, 
+    {
+        title: "Grad School Panel",
+        time: "Friday, October 24, 2025, 1:30 PM - 2:30 PM",
+        description: [
+            { line: "We're excited to invite you to our annual Graduate School Informational Session—open to all Harvard students and affiliates! Learn about pursuing graduate studies from current PhD students while enjoying pizza!" },
+        ],
+        image: "/events/grad-panel-2025.png",
+    }, 
     {
         title: "Fall Social",
         time: "Friday, September 26, 2025, 4:00 PM - 5:00 PM",
