@@ -99,7 +99,7 @@ exports.boardMembers = [
         name: "Sophia Liu",
         title: "Board Member",
         imagePath: "/headshots/Sophia Liu.png",
-        desc: "Sophia is a sophomore in Currier House studying Computer Science and Statistics. Outside of GUSH, she is involved in T4SG, HUQT, SWS, WECode, and research. In her free time, she can be found playing tennis or exploring new cafes and restaurants around Boston. "
+        desc: "Sophia is a sophomore in Currier House studying Computer Science and Statistics. Outside of GUSH, she is involved in T4SG, HUQT, SWS, WECode, and research. In her free time, she can be found playing tennis or exploring new cafes and restaurants around Boston."
     },
     {
         name: "Sophia Liu",
