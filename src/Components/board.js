@@ -45,7 +45,7 @@ exports.boardMembers = [
         name: "Emily Yu",
         title: "Board Member",
         imagePath: "/headshots/Emily Yu.jpg",
-        desc: "Hi all! I'm Emily, co '29 from Boston, but for this next year I'll be living in Lionel Hall. I'm looking to study MCB (or some sort of biology...) with Stats and a secondary in Social Studies. I spend most of my time outside class dancing with AADT, watching whatever YouTube Movies makes free, and playing piano. I love analyzing hot takes and playing mediocre table tennis, too. Super excited to meet the GUSH community!"
+        desc: "Hi all! I'm Emily, co '29 from Boston, but for this next year I'll be living in Lionel Hall. I'm looking to study MCB (or some sort of biology...) with Stats and a secondary in Social Studies. I spend most of my time outside class dancing with AADT, watching whatever YouTube Movies makes free, and playing piano. I love analyzing hot takes and playing mediocre table tennis, too."
     },
     {
         name: "Elvin Lo",
@@ -98,7 +98,7 @@ exports.boardMembers = [
     {
         name: "Sophia Liu",
         title: "Board Member",
-        imagePath: "/headshots/Sophia Liu.png",
+        imagePath: "/headshots/Sophia Liu1.png",
         desc: "Sophia is a sophomore in Currier House studying Computer Science and Statistics. Outside of GUSH, she is involved in T4SG, HUQT, SWS, WECode, and research. In her free time, she can be found playing tennis or exploring new cafes and restaurants around Boston."
     },
     {
