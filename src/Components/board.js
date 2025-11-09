@@ -68,7 +68,7 @@ exports.boardMembers = [
     {
         name: "Kerry Nguyen",
         title: "Board Member",
-        imagePath: "/headshots/Joe Blitzstein.jpg",
+        imagePath: "/headshots/gush-logo.png",
         desc: "Kerry is a senior in Quincy House studying Applied Mathematics and Physics. He is also involved with the Harvard Vietnamese Association and the Harvard Taekwondo Club. In his free time, he enjoys exploring new cafes in the Greater Boston area."
     },
     {
@@ -92,7 +92,7 @@ exports.boardMembers = [
     {
         name: "Sirja Joeveer",
         title: "Board Member",
-        imagePath: "/headshots/Joe Blitzstein.jpg",
+        imagePath: "/headshots/gush-logo.png",
         desc: "Sirja is a freshman studying Mathematics and Statistics on the Machine Learning track. Along with GUSH, Sirja is a ballet dancer with the Harvard Ballet Company and violinist in the Mozart Society Orchestra. In her free time she loves to run, collect pink stationery, and watch Disney Channel original movies (DCOMs)."
     },
     {
