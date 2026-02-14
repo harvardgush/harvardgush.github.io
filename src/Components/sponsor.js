@@ -8,11 +8,6 @@ exports.sponsors = [
                 link: "https://www.citadel.com"
             },
             {
-                name: "Hudson River Trading",
-                imagePath: "/sponsors/HRT-Sponsor.png",
-                link: "https://www.hudsonrivertrading.com/"
-            },
-            {
                 name: "Jump Trading",
                 imagePath: "/sponsors/Jump-Trading-Sponsor.jpg",
                 link: "https://www.jumptrading.com/"
@@ -31,12 +26,21 @@ exports.sponsors = [
                 name: "DRW",
                 imagePath: "/sponsors/DRW-Sponsor.jpg",
                 link: "https://www.drw.com/"
+            }
+        ]
+    }
+];
+
+/* 
+            {
+                name: "Hudson River Trading",
+                imagePath: "/sponsors/HRT-Sponsor.png",
+                link: "https://www.hudsonrivertrading.com/"
             },
+            
             {
                 name: "QuantCo",
                 imagePath: "/sponsors/QuantCo-Sponsor.png",
                 link: "https://www.quantco.com/"
             },
-        ]
-    }
-];
+*/

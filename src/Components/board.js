@@ -45,7 +45,7 @@ exports.boardMembers = [
         name: "Emily Yu",
         title: "Board Member",
         imagePath: "/headshots/Emily Yu.jpg",
-        desc: "Hi all! I'm Emily, co '29 from Boston, but for this next year I'll be living in Lionel Hall. I'm looking to study MCB (or some sort of biology...) with Stats and a secondary in Social Studies. I spend most of my time outside class dancing with AADT, watching whatever YouTube Movies makes free, and playing piano. I love analyzing hot takes and playing mediocre table tennis, too."
+        desc: "Emily is a freshman from Boston looking to study Molecular Cellular Biology with Stats and a secondary in Sociology. She spends most of her time dancing with AADT and watching whatever YouTube Movies makes free. You can also catch her taking a dip in the pool, analyzing hot takes, and playing mediocre table tennis!"
     },
     {
         name: "Elvin Lo",
@@ -92,7 +92,7 @@ exports.boardMembers = [
     {
         name: "Sirja Joeveer",
         title: "Board Member",
-        imagePath: "/headshots/gush-logo.png",
+        imagePath: "/headshots/Sirja Joeveer.jpg",
         desc: "Sirja is a freshman studying Mathematics and Statistics on the Machine Learning track. Along with GUSH, Sirja is a ballet dancer with the Harvard Ballet Company and violinist in the Mozart Society Orchestra. In her free time she loves to run, collect pink stationery, and watch Disney Channel original movies (DCOMs)."
     },
     {
