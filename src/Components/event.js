@@ -8,6 +8,54 @@ exports.events = [
         image: "/events/.jpg",
     }, */
     {
+        title: "Poker Social 2026",
+        time: "Friday, February 26th, 2026, 5:00 PM - 6:00 PM",
+        description: [
+            { line: "We're excited to invite you to our annual Poker Social—with fresh fruit provided! All experiences are welcome, with a beginner-friendly table available!" },
+        ],
+        image: "/events/poker-social-2026.png",
+    },
+    {
+        title: "GUSH x Citadel Quant Challenge",
+        time: "Thursday, February 19th, 2026, 6:00 PM - 8:00 PM",
+        description: [
+            { line: "Join GUSH for an exclusive quant challenge with one of our corporate sponsors Citadel Securities." },
+        ],
+        image: "/events/citadel-flyer-2026.png",
+    },
+    {
+        title: "Stat 110 Review Session",
+        time: "Sunday, February 1st, 2026, 6:00 PM - 8:00 PM",
+        description: [
+            { line: "We're excited to invite you to our first-ever STAT 110 Refresher Workshop! Join us for a big-picture review of the important concepts from STAT 110, especially as they apply to higher-level courses." },
+        ],
+        image: "/events/stat-110-refresher-2026.jpg",
+    }, 
+    {
+        title: "Help with Internships, Research, and Experiences (HIRE)",
+        time: "Wednesday, December 3rd, 2025, 2:00 PM - 3:00 PM",
+        description: [
+            { line: "We're excited to pilot our new event: HIRE (Help with Internships, Research, and Experiences)! Learn from students about navigating summer opportunities related to statistics. Specifically, if you're interested in working, studying abroad, and/or conducting (funded) research, be sure to stop by this informal event—baked goods will be provided! " },
+        ],
+        image: "/events/hire-2025.jpg",
+    },
+    {
+        title: "Enhanced Stat Night: Thanksgiving",
+        time: "November 19th, November 21st from 7:00 PM - 9:00 PM",
+        description: [
+            { line: "Happy (early) Thanksgiving! This week will feature Enhanced Stat Night on Tuesday, 11/19 and Thursday, 11/21 (from 7-9 PM in Science Center 316). Share your gratitude and come celebrate with your favorite p-set buddies—with fall-themed snacks and baked goods!" },
+        ],
+        image: "/events/stat-night-thanksgiving-2025.png",
+    },
+    {
+        title: "GUSH Spring Course Panel",
+        time: "Sunday, November 16, 2025, 3:00 PM - 4:00 PM",
+        description: [
+            { line: "We're excited to invite you to our annual Spring Course Panel—open to all Harvard students and affiliates! Hear from TFs about spring courses (e.g., STAT 100, 109B, 111, 171) while enjoying mochi donuts!" },
+        ],
+        image: "/events/spring-course-panel-2025.png",
+    },
+    {
         title: "Help for Undergraduates from Graduate Students (HUGS)",
         time: "Deadline: Friday, 10/24",
         description: [
