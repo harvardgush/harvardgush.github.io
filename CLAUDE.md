@@ -67,9 +67,13 @@ Always commit `docs/` together with the `src/` change that produced it.
 - **`.env` is force-tracked.** Jesse's global gitignore
   (`~/.config/git/ignore`) ignores `.env`. It was added with `git add -f`
   and stays tracked, but if you ever recreate it you need `-f` again.
-- **`npm run deploy` is dead.** The `gh-pages` package and the
-  `predeploy`/`deploy` scripts are from an older setup that published a
-  `gh-pages` branch. Pages no longer reads that branch. Do not run it.
+- **Removed 2026-10-23:** the `gh-pages` deploy scripts (from an older setup
+  that published a `gh-pages` branch Pages no longer reads), the unused
+  `rimraf`/`jquery`/`json-loader` packages, and the CRA placeholder test
+  (`App.test.js`, `setupTests.js`, testing-library). The placeholder test
+  could not run anyway: CRA's Jest 27 cannot resolve react-router 7's package
+  exports. There is no `npm test`; testing is `npm start` plus
+  `npm run build && npx serve docs`.
 - **`homepage` in package.json** is `https://harvardgush.github.io/`. Only
   the path part (`/`) matters to CRA, so it is correct for gushclub.org too.
 - **Browserslist warning** on build ("caniuse-lite is 13 months old") is
