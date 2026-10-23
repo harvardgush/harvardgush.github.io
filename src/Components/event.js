@@ -118,9 +118,9 @@ exports.events = [
     },
     {
         title: "Enhanced Stat Night: Thanksgiving",
-        time: "November 19th, November 21st from 7:00 PM - 9:00 PM",
+        time: "Tuesday, November 18, and Thursday, November 20, 2025, 7:00 PM - 9:00 PM",
         description: [
-            { line: "Happy (early) Thanksgiving! This week will feature Enhanced Stat Night on Tuesday, 11/19 and Thursday, 11/21 (from 7-9 PM in Science Center 316). Share your gratitude and come celebrate with your favorite p-set buddies—with fall-themed snacks and baked goods!" },
+            { line: "Happy (early) Thanksgiving! This week will feature Enhanced Stat Night on Tuesday, 11/18 and Thursday, 11/20 (from 7-9 PM in Science Center 316). Share your gratitude and come celebrate with your favorite p-set buddies—with fall-themed snacks and baked goods!" },
         ],
         image: "/events/stat-night-thanksgiving-2025.png",
     },
