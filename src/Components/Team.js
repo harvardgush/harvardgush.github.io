@@ -10,7 +10,7 @@ class Team extends Component {
       <div>
         <div className="max-w-7xl mx-auto bg-[#a61c31] relative p-10">
           <h1 className="text-white text-center text-4xl font-bold mb-12">
-            Board of Directors 2024-25
+            Board of Directors 2026-27
           </h1>
           <div className="px-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-20 gap-y-10">
             {boardMembers.map((member, index) => (
