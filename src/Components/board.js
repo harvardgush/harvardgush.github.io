@@ -18,28 +18,28 @@ exports.boardMembers = [
         desc: "Sirja is a freshman studying Mathematics and Statistics on the Machine Learning track. Along with GUSH, Sirja is a ballet dancer with the Harvard Ballet Company and violinist in the Mozart Society Orchestra. In her free time she loves to run, collect pink stationery, and watch Disney Channel original movies (DCOMs)."
     },
     {
-        name: "Cady Wang",
-        title: "Director of Outreach",
-        imagePath: "/headshots/Cady Wang.jpeg",
-        desc: "Cady is a freshman studying Applied Mathematics and Statistics with a secondary in Computer Science. In her free time, she enjoys running, going to the gym, hiking, reading classics, and big backing around Boston."
-    },
-    {
         name: "Sophia Liu",
         title: "Director of Academics",
         imagePath: "/headshots/Sophia Liu.jpeg",
         desc: "Sophia is a freshman studying Math and Statistics. Outside of GUSH, she's involved with HackHarvard and biomedical research. In her free time, she enjoys running and trying new food!"
     },
     {
-        name: "Anthony Shen",
-        title: "Board Member",
-        imagePath: "/headshots/Anthony Shen.jpg",
-        desc: "Anthony is a Sophomore in Currier House concentrating in Statistics and Math. Outside of GUSH, he is involved with AADT and other research projects. In his free time, he likes playing basketball, card games, and trying new food places in the area!"
+        name: "Cady Wang",
+        title: "Director of Outreach",
+        imagePath: "/headshots/Cady Wang.jpeg",
+        desc: "Cady is a freshman studying Applied Mathematics and Statistics with a secondary in Computer Science. In her free time, she enjoys running, going to the gym, hiking, reading classics, and big backing around Boston."
     },
     {
         name: "Elvin Lo",
         title: "Board Member",
         imagePath: "/headshots/Elvin Lo.jpg",
         desc: "Elvin is a junior in Dunster studying Statistics. Besides GUSH, he is involved with the Taiwanese Cultural Society and plays a lot of tennis. He also likes spikeball and is working on getting into mahjong."
+    },
+    {
+        name: "Anthony Shen",
+        title: "Board Member",
+        imagePath: "/headshots/Anthony Shen.jpg",
+        desc: "Anthony is a Sophomore in Currier House concentrating in Statistics and Math. Outside of GUSH, he is involved with AADT and other research projects. In his free time, he likes playing basketball, card games, and trying new food places in the area!"
     },
     {
         name: "Eric Tong",
