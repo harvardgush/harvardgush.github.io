@@ -21,7 +21,7 @@ class Events extends Component {
               <p className="m-0 sm:whitespace-nowrap whitespace-normal">
                 To stay up-to-date with events, click{' '}
                 <a
-                  href="https://calendar.google.com/calendar/u/0?cid=Y181Njk0ZDcxZTE3YmJiM2E5ZDYyZWM0Nzc3NmI3Nzk5M2ExMTJlMzZkZTI1ODYwZWNmMzUzYTE5N2NiYWQ1NTc4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20"
+                  href="https://calendar.google.com/calendar/u/0?cid=N2NkOWYwMDBkODk1ZDE1OWIxMjEzYWYyZWJkY2YxNWJkNWQwZjkxOTA3NGVmNDI3NWM4YTZiMGRiYzVmZTc2Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="underline decoration-red-400 underline-offset-2 text-red-900 hover:text-red-900/90"
@@ -37,6 +37,8 @@ class Events extends Component {
 
           {events.map((event, eventIndex) => (
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start my-10">
+              {/* Events without a poster leave out `image`; their text spans the full row */}
+              {event.image && (
               <div className="col-span-1 relative group overflow-hidden rounded-2xl">
                 <img
                   src={event.image}
@@ -45,8 +47,9 @@ class Events extends Component {
                 />
                 <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-10 transition-all duration-500"></div>
               </div>
+              )}
 
-              <div key={`tier-${eventIndex}`} className="mb-16 last:mb-0 col-span-1 md:col-span-2">
+              <div key={`tier-${eventIndex}`} className={`mb-16 last:mb-0 col-span-1 ${event.image ? "md:col-span-2" : "md:col-span-3"}`}>
                 <h2 className="text-white text-2xl font-semibold mb-3 text-left">
                   {event.title}
                 </h2>

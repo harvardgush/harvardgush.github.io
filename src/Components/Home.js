@@ -115,7 +115,7 @@ const Home = () => {
                     View Upcoming Events
                   </a>
                   <a
-                    href="https://calendar.google.com/calendar/u/0?cid=Y181Njk0ZDcxZTE3YmJiM2E5ZDYyZWM0Nzc3NmI3Nzk5M2ExMTJlMzZkZTI1ODYwZWNmMzUzYTE5N2NiYWQ1NTc4QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20"
+                    href="https://calendar.google.com/calendar/u/0?cid=N2NkOWYwMDBkODk1ZDE1OWIxMjEzYWYyZWJkY2YxNWJkNWQwZjkxOTA3NGVmNDI3NWM4YTZiMGRiYzVmZTc2Y0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block bg-[#a61c31] text-white px-6 py-3 rounded-md hover:bg-[#851627] font-normal"

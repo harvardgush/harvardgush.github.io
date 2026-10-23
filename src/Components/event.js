@@ -8,6 +8,54 @@ exports.events = [
         image: "/events/.jpg",
     }, */
     {
+        title: "GUSH x QuantCo Game Night",
+        time: "Friday, October 2, 2026, 6:00 PM - 8:00 PM",
+        description: [
+            { line: "GUSH and QuantCo welcome you back to Game Night at QuantCo's office (139 Main St, Cambridge)! Play poker, chess, and other fun games while learning about QuantCo—food and drinks provided. RSVP required: tinyurl.com/gush-quantco" },
+        ],
+        image: "/events/quantco-game-night-2026.jpg",
+    },
+    {
+        title: "Data Science & Generative AI in Finance ft. Bank of America",
+        time: "Tuesday, April 14, 2026, 6:00 PM - 7:00 PM",
+        description: [
+            { line: "GUSH, HDAG, HCS, and WiCS are teaming up with Bank of America for an event on data science and generative AI in finance on the 10th floor of the Smith Campus Center. All are welcome, and sushi will be provided! RSVP at tinyurl.com/bofa-recruiting" },
+        ],
+        image: "/events/bofa-genai-finance-2026.png",
+    },
+    {
+        title: "SURF: Statistics Undergraduate Research Forum",
+        time: "Friday, April 3, 2026, 3:00 PM",
+        description: [
+            { line: "Learn about statistics research opportunities and senior theses at our annual Statistics Undergraduate Research Forum (SURF) in Science Center 105—with free boba! Please RSVP using the QR code on the flyer." },
+        ],
+        image: "/events/surf-2026.png",
+    },
+    {
+        title: "Fall Course Panel",
+        time: "Sunday, March 29, 2026, 3:00 PM",
+        description: [
+            { line: "Interested in a Statistics course? Hear from TFs and former students about STAT 110, 100, 109A, 139, 210, and more in SC 309A—with snacks and fruit from Trader Joe's! RSVP at tinyurl.com/gushfallpanel26" },
+        ],
+        image: "/events/fall-course-panel-2026.png",
+    },
+    {
+        title: "Women in Statistics & Data Science Panel",
+        time: "Wednesday, March 11, 2026, 7:00 PM - 8:00 PM",
+        description: [
+            { line: "Hear from accomplished women in academia, biostatistics, tech, and other industries at our annual Women in Statistics & Data Science Panel in Sever 103—all while enjoying sushi! All identities welcome; please RSVP for headcount at tinyurl.com/womeninds26" },
+        ],
+        image: "/events/wisds-2026.png",
+    },
+    {
+        title: "Stat/Math CA & TF Social",
+        time: "Friday, March 6, 2026, 3:00 PM - 4:00 PM",
+        description: [
+            { line: "GUSH and HUMA are hosting a social for Statistics and Math CAs and TFs in Harvard Hall 201. Meet fellow course staff and enjoy free Playa Bowls!" },
+        ],
+        image: "/events/ca-tf-social-2026.jpg",
+    },
+    {
         title: "Poker Social 2026",
         time: "Friday, February 26th, 2026, 5:00 PM - 6:00 PM",
         description: [
