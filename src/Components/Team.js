@@ -27,7 +27,7 @@ class Team extends Component {
                   className="w-full h-full object-cover group-hover:brightness-50 transition duration-500 ease-in-out transform hover:scale-110"
                 />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
-                  <p className="text-white text-lg font-medium text-center px-4">
+                  <p className={`text-white ${member.descSize || "text-lg"} font-medium text-center px-4`}>
                     {member.desc}
                   </p>
                 </div>

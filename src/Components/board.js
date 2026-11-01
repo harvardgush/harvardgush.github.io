@@ -84,6 +84,7 @@ exports.boardMembers = [
         name: "Steven Wei",
         title: "Board Member",
         imagePath: "/headshots/Steven_Wei.png",
+        descSize: "text-sm",
         desc: "Steven is a sophomore in Adams studying CS and Applied Math. In addition to GUSH, Steven is involved in HPL as a Director of Consulting and HDAG on the sourcing team, as well as an avid STAT 110 TF and HUQT member. You may find Steven playing various sorts of games (indoors/outdoors), listening to music, being curious about reading/writing, and above all, having fun learning about other people's passions!"
     },
     {
