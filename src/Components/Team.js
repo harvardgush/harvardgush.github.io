@@ -23,6 +23,7 @@ class Team extends Component {
                 <img
                   src={member.imagePath}
                   alt={`${member.name} - ${member.title}`}
+                  style={{ objectPosition: member.imagePosition }}
                   className="w-full h-full object-cover group-hover:brightness-50 transition duration-500 ease-in-out transform hover:scale-110"
                 />
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition duration-500">
